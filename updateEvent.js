@@ -2,12 +2,12 @@ const sql = require("mssql");
 
 // Config for your database
 const config = {
-  user: "WebDSecondAssessment",
-  password: "123456",
-  database: "EventManagerDB",
-  server: "localhost",
-    options: {
-      trustServerCertificate: true, // change to false for production
+  user: " ",// add your database username 
+  password: " ", // add your database password
+  database: " ", // add your database name
+  server: "localhost", // this is for when the project is running on your local computer
+  options: {
+    trustServerCertificate: true, // change to false for production
       encrypt: true,
     }
    
